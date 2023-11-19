@@ -1,0 +1,162 @@
+.main-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-around;
+    align-items: self-start;/*center*/
+}
+.yt-logo{
+    height: 30px;
+    cursor: pointer;
+}
+.navbar img{
+    height: 45px;
+}
+.page {
+    display:flex;
+    height: 100vh;
+}
+
+/* sidebar CSS */
+.sidebar{
+    width: 20%;
+}
+.sidebar button{
+    display: block;
+    height: 30px;
+    width: 98%;
+    background-color:white;
+    border: none;
+    border-radius: 5px;
+    margin: 1px;
+}
+
+.searchBar {
+    height: 35px;
+    width: 1500px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin: 5px;
+    padding-left: 2%;
+
+}
+.searchButton{
+    height: 34px;
+    width: 90px;
+    border-top-left-radius: ;
+}
+
+.signInButton {
+    height: 30px;
+    width: 70px;
+    border-radius: 40px;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* card css */
+.thumbnail{
+    height: 200px;
+    border-radius : 10px;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.card-body{
+    display: flex;
+}
+
+.channelImage{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border :1px solid black;
+    margin: 5px;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+}
+.card-text p{
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.title{
+    font-weight: bold;
+}
+.faded{
+    font-size: 75%;
+    color: #666;
+}
+
+/* ********************Video page*************************/
+
+.videoPage{
+    display: flex;
+
+}
+
+.videoItem{
+    width: 65%;
+
+}
+.description{
+    display: flex;
+
+}
+.description-text{
+
+}
+.subscribe-button{
+
+}
+.pill{
+
+}
+.download-pill{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+    width: 100px;
+    border-radius: ;
+}
+
+.suggestionBar{
+    width: 40%;
+    margin: 20px;
+}
+
+.iframe-video{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 2%;
+    margin: 10px;
+}
+/* suggestion card css */
+.suggestion-card{
+    display: flex;
+
+}
+
+.suggestion-thumbnail{
+    height: 100px;
+    margin: 10px;
+    border-radius: 5%;
+}
